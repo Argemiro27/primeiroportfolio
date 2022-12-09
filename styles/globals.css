@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, Dosis,BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Satisfy', cursive;
 }
 
 a {
@@ -20,7 +21,8 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
+    color: #3d396b;
+    font-family: 'Satisfy', cursive;
     background: #14131f;
   }
 }
