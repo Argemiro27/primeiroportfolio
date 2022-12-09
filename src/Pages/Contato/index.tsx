@@ -5,17 +5,15 @@ import Image from 'next/image';
 import { Container } from '../../Styled';
 import { Column, Row } from './styled';
 
-export const Home = () => {
+export const Contato = () => {
     return(
         <>
             <Header />
             <Container> 
                 <Row> 
                     <Column>
-                        <div className="name">
-                            <text>Argemiro Junior</text><br/>
-                            <text>Front-end Developer</text>
-                        </div>
+                        <text>Argemiro Junior</text><br/>
+                        <text>Front-end Developer</text>
                     </Column>
                     <Column>
                         <Image
@@ -24,13 +22,6 @@ export const Home = () => {
                         width={300}
                         height={300}
                         />    
-                    </Column>
-                </Row>
-            </Container>
-            <Container>
-                <Row>
-                    <Column>
-                        <h4>Formação técnica em Informática pelo CEFET-MG Campus Varginha</h4>                       
                     </Column>
                 </Row>
             </Container>

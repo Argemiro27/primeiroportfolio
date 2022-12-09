@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Rajdhani:wght@300;400&family=Satisfy&display=swap');
 
 html,
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Amatic SC', cursive;
   font-family: 'Satisfy', cursive;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 a {
@@ -22,7 +26,6 @@ a {
   }
   body {
     color: #3d396b;
-    font-family: 'Satisfy', cursive;
     background: #14131f;
   }
 }

@@ -25,10 +25,8 @@ export const Column = styled.div`
     }
     &:hover{
         transition: 2s;  
+        
         background-color:#0f0f0f; 
-    }
-    .formation .p{
-        font-size: 50px;
     }
 
 `

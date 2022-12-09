@@ -2,9 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Amatic_SC } from '@next/font/google';
 
-const Amatic = Amatic_SC({
-  weight: '700',
-})
+
 
 const UlStyled = styled.ul`
     display:flex;
@@ -21,9 +19,10 @@ const UlStyled = styled.ul`
         cursor: pointer;
         background-color: #292645;
         border-radius: 4px;
-        font-size: 20px;
-        padding: 15px;
+        font-size: 23px;
+        padding: 13px;
         transition: 2s;
+        font-family: 'Amatic SC', cursive;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         &:hover{
             transition: 3s;
@@ -37,12 +36,11 @@ const UlStyled = styled.ul`
 
 export const Menu = () =>{
     return(
-        <main className={Amatic.className}>
+        
         <UlStyled>
-            <li>Sobre mim</li>
-            <li>Projetos</li>
-            <li>Contato</li>
+            <a href="http://localhost:3000"><li>Sobre mim</li></a>
+            <a href="http://localhost:3000/projetos"><li>Projetos</li></a>
+            <a href="http://localhost:3000/contato"><li>Contato</li></a>
         </UlStyled>
-        </main>
     )
 }
